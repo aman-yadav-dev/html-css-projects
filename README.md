@@ -6,10 +6,10 @@ A collection of responsive frontend projects built while learning modern web dev
 
 | Project            | Live Preview |
 | ------------------ | ------------ |
-| Product Card       | Live Demo    |
-| QR Code Page       | Live Demo    |
-| Recipe Page        | Live Demo    |
-| Responsive Sidebar | Live Demo    |
+| Product Card       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Product-Card/)    |
+| QR Code Page       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/QR-Code-Page/)    |
+| Recipe Page        | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Recipe-Page/)    |
+| Responsive Sidebar | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Responsive-Sidebar/)    |
 
 ## Skills Practiced
 
