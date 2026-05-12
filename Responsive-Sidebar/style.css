@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  background-color: bisque;
+}
+
+.head {
+  background-color: rgb(117, 89, 58);
+  padding: 0.75rem;
+}
+
+.head .check {
+  display: none;
+}
+
+.head label i {
+  font-size: 2rem;
+}
+
+.head label.close-nav {
+  position: absolute;
+  top: 18vh;
+  z-index: 3;
+  left: -100vw;
+  transition: left 0.5s linear;
+}
+
+.head input.check:checked {
+  ~ label.close-nav {
+    left: 250px;
+    display: inline;
+  }
+
+  ~ div.sidebar {
+    left: 0rem;
+    display: block;
+  }
+}
+
+.head .sidebar {
+  position: fixed;
+  background-color: burlywood;
+  top: 15vh;
+  left: -100vw;
+  min-width: 300px;
+  height: 550px;
+  padding: 0.6rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  transition: left 0.5s linear, min-width 0.5s linear;
+}
+
+.head .sidebar .nav-logo .logo {
+  width: 3rem;
+  border-radius: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.head .sidebar .nav-logo {
+  display: block;
+}
+
+/* .head .sidebar .nav-logo a.nav-title {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+} */
+
+.head .sidebar hr {
+  margin: 0.5rem;
+  border: 2px solid rgb(76, 50, 17);
+}
+
+.head .sidebar .nav-item .item-list .list {
+  list-style-type: none;
+  transition:
+    border-left 0.3s linear,
+    margin 0.3s linear;
+}
+
+.head .sidebar .nav-item .item-list .list .list-name {
+  display: block;
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  margin: 0.5rem;
+  transition:
+    color 0.3s linear,
+    font-weight 0.3s linear;
+  color: rgb(127, 86, 57);
+}
+
+.head .sidebar .nav-item .item-list .list:hover {
+  border-left: 4px solid rgb(76, 50, 17);
+  margin: 0.5rem;
+
+  .list-name {
+    color: rgb(76, 50, 17);
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 350px) {
+  .head .sidebar {
+    min-width: 200px;
+  }
+
+  .head input.check:checked ~ label.close-nav {
+    left: 150px;
+    display: inline;
+  }
+}
+
+@media (max-width: 210px) {
+  .head .sidebar {
+    min-width: 130px;
+  }
+
+  .head input.check:checked ~ label.close-nav {
+    left: 90px;
+    display: inline;
+  }
+}

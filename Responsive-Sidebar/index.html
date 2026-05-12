@@ -1,1 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar - Responsive</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <input type="checkbox" class="check" id="check-sidebar" />
+      <label class="open-nav" for="check-sidebar">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="close-nav" for="check-sidebar">
+        <i class="fa fa-close"></i>
+      </label>
 
+      <div class="sidebar">
+        <div class="nav-logo">
+          <img class="logo" src="assets/nav-image.jpg" alt="nav-image">
+          <!-- <a class="nav-title" href="#">FattyBoy</a> -->
+        </div>
+        <hr>
+        <div class="nav-item">
+          <ul class="item-list">
+            <li class="list"><a href="#" class="list-name">Dashboard</a></li>
+            <li class="list"><a href="#" class="list-name">Profile</a></li>
+            <li class="list"><a href="#" class="list-name">Settings</a></li>
+            <li class="list"><a href="#" class="list-name">History</a></li>
+            <li class="list"><a href="#" class="list-name">Report</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
