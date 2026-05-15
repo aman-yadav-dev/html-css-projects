@@ -1,1 +1,148 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-content">
+      <header class="page-header">
+        <div class="header-content">
+          <div class="header-image">
+            <img src="assets/images/logo.svg" alt="Website logo" />
+          </div>
+          <div class="header-hamburger">
+            <input type="checkbox" class="checkbox-hamburger" id="check" />
+            <div class="hamburger">
+              <div class="open-sidebar">
+                <label for="check">
+                  <img src="assets/images/icon-menu.svg" alt="open-sidebar" />
+                </label>
+              </div>
+              <div class="close-sidebar">
+                <label for="check">
+                  <img
+                    src="assets/images/icon-menu-close.svg"
+                    alt="close-sidebar"
+                  />
+                </label>
+              </div>
+            </div>
+            <nav class="sidebar">
+              <ul class="sidebar-items">
+                <li class="list list-gap">
+                  <a href="#" class="list-name">Home</a>
+                </li>
+                <li class="list"><a href="#" class="list-name">New</a></li>
+                <li class="list"><a href="#" class="list-name">Popular</a></li>
+                <li class="list"><a href="#" class="list-name">Trending</a></li>
+                <li class="list">
+                  <a href="#" class="list-name">Categories</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main-content">
+        <section class="section-hero">
+          <div class="hero-content">
+            <div class="hero-article">
+              <div class="article-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="assets/images/image-web-3-desktop.jpg"
+                  />
+                  <img
+                    src="assets/images/image-web-3-mobile.jpg"
+                    alt="Article image"
+                  />
+                </picture>
+              </div>
+              <div class="article-body">
+                <div class="article-head">
+                  <h1>The Bright Future of Web 3.0?</h1>
+                </div>
+                <div class="article-details">
+                  <p>
+                    We dive into the next evolution of the web that claims to
+                    put the power of the platforms back into the hands of the
+                    people. But is it really fulfilling its promise?
+                  </p>
+                  <button type="submit" class="read-btn">Read more</button>
+                </div>
+              </div>
+            </div>
+            <div class="hero-new">
+              <h3>New</h3>
+              <div class="new-feature-one">
+                <h2>Hydrogen VS Electric Cars</h2>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+              <hr />
+              <div class="new-feature-two">
+                <h2>The Downsides of AI Artistry</h2>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <hr />
+              <div class="new-feature-three">
+                <h2>Is VC Funding Drying Up?</h2>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+            <div class="hero-additional">
+              <div class="hero-additional-content one">
+                <div class="additional-image">
+                  <img
+                    src="assets/images/image-retro-pcs.jpg"
+                    alt="Retro PCs"
+                  />
+                </div>
+                <div class="additional-details">
+                  <h3>01</h3>
+                  <h2>Reviving Retro PCs</h2>
+                  <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+              </div>
+              <div class="hero-additional-content two">
+                <div class="additional-image">
+                  <img
+                    src="assets/images/image-top-laptops.jpg"
+                    alt="Retro PCs"
+                  />
+                </div>
+                <div class="additional-details">
+                  <h3>02</h3>
+                  <h2>Top 10 Laptops of 2022</h2>
+                  <p>Our best picks for various needs and budgets.</p>
+                </div>
+              </div>
+              <div class="hero-additional-content three">
+                <div class="additional-image">
+                  <img
+                    src="assets/images/image-gaming-growth.jpg"
+                    alt="Retro PCs"
+                  />
+                </div>
+                <div class="additional-details">
+                  <h3>03</h3>
+                  <h2>The Growth of Gaming</h2>
+                  <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
