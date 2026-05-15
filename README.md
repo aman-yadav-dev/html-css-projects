@@ -6,12 +6,12 @@ A collection of responsive frontend projects built while learning modern web dev
 
 | Project            | Live Preview |
 | ------------------ | ------------ |
-| Product Card       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Product-Card/)    |
-| QR Code Page       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/QR-Code-Page/)    |
-| Recipe Page        | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Recipe-Page/)    |
-| Responsive Sidebar | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Responsive-Sidebar/)    |
-| Bento Grid | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Bento-Grid/)    |
 | Newspaper Homepage | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Newspaper-Homepage/)    |
+| Bento Grid | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Bento-Grid/)    |
+| Responsive Sidebar | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Responsive-Sidebar/)    |
+| Recipe Page        | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Recipe-Page/)    |
+| QR Code Page       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/QR-Code-Page/)    |
+| Product Card       | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Product-Card/)    |
 
 ## Skills Practiced
 
