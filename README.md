@@ -11,6 +11,7 @@ A collection of responsive frontend projects built while learning modern web dev
 | Recipe Page        | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Recipe-Page/)    |
 | Responsive Sidebar | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Responsive-Sidebar/)    |
 | Bento Grid | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Bento-Grid/)    |
+| Newspaper Homepage | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Newspaper-Homepage/)    |
 
 ## Skills Practiced
 
