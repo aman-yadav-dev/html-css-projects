@@ -6,6 +6,7 @@ A collection of responsive frontend projects built while learning modern web dev
 
 | Project            | Live Preview |
 | ------------------ | ------------ |
+| Loopstudios Landing Page | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Loopstudios-Landing-Page/)    |
 | Newspaper Homepage | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Newspaper-Homepage/)    |
 | Bento Grid | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Bento-Grid/)    |
 | Responsive Sidebar | [Live Demo](https://aman-yadav-dev.github.io/html-css-projects/Responsive-Sidebar/)    |
