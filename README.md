@@ -25,5 +25,5 @@ A collection of responsive frontend projects built while learning modern web dev
 * Typography & Visual Hierarchy
 * Layout Design
 * Component-Based UI Structure
-* CSS Positioning & Layering
+* CSS Positioning & Layering 
 
